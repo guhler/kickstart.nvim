@@ -12,7 +12,7 @@ set background=dark
 
 " hi clear
 source $VIMRUNTIME/colors/vim.lua " Nvim: revert to Vim default color scheme
-let g:colors_name = 'habamax'
+let g:colors_name = 'my-habamax'
 
 let s:t_Co = &t_Co
 
