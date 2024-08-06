@@ -120,6 +120,8 @@ vim.schedule(function()
   vim.cmd.colorscheme 'my-habamax'
 end)
 
+vim.opt.expandtab = true
+
 -- Enable break indent
 vim.opt.breakindent = true
 
@@ -641,6 +643,7 @@ require('lazy').setup({
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
         'rust_analyzer',
+        'wgsl_analyzer',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
