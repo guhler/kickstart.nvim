@@ -256,11 +256,6 @@ require('lazy').setup({
   -- 'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   {
     'https://github.com/windwp/nvim-ts-autotag',
-    opts = {
-      enable_close = true, -- Auto close tags
-      enable_rename = true, -- Auto rename pairs of tags
-      enable_close_on_slash = false, -- Auto close on trailing </},
-    },
   },
   {
     'https://github.com/MunifTanjim/prettier.nvim',
