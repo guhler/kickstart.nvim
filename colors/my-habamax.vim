@@ -1,6 +1,7 @@
 
 source $VIMRUNTIME/colors/habamax.vim" Nvim: revert to Vim default color scheme
 
+let g:colors_name = 'my-habamax'
 
 hi! link @lsp.type.constParameter Constant
 hi! @operator guifg=#d7875f guibg=NONE gui=NONE cterm=NONE
