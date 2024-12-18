@@ -6,7 +6,8 @@ let g:colors_name = 'my-habamax'
 hi! link @lsp.type.constParameter Constant
 hi! @operator guifg=#d7875f guibg=NONE gui=NONE cterm=NONE
 hi! @keyword.type guifg=#365b80 guibg=NONE gui=NONE cterm=NONE
-hi! @lsp.type.namespace guifg=#7d4c7d guibg=NONE gui=NONE cterm=NONE
+hi! @lsp.type.namespace guifg=#a162a1 guibg=NONE gui=NONE cterm=NONE
+
 hi Identifier guifg=#87afaf guibg=NONE gui=NONE cterm=NONE
 
 hi TodoBgNOTE guifg=#396464 guibg=#70db70 gui=NONE cterm=NONE
@@ -21,5 +22,5 @@ hi NormalNC guibg=NONE ctermbg=NONE
 "WARN: hello
 "FIX: hello
 "TODO: hello
-"
+
 "comment
